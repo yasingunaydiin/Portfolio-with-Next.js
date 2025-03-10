@@ -92,18 +92,21 @@ export const AboutSection = () => {
           <div className='flex flex-col gap-8'>
             <h2 className='text-3xl text-center md:text-5xl'>Where Am I?</h2>
             <p className='text-sm text-center md:text-1xl'>
-              I’m connected to both Turkey and The Netherlands, where my roots
-              and experiences intersect. These two countries have shaped who I
-              am, influencing my work and worldview. The map below represents
-              the places that have played a key role in my journey.
+              I'm deeply connected to both of my home countries, where my roots
+              and experiences come together. These two places have shaped my
+              perspective and the way I approach my work.{' '}
+              <strong> Now based in Doetinchem</strong>, I continue to draw
+              inspiration from both cultures. The map below highlights the key
+              locations that have influenced my journey.
             </p>
+
             <Card className='h-[250px] p-0 relative col-span-2'>
               <Image
-                src={turkeyMapImage}
+                src={theNetherlandsMapImage}
                 alt='Map'
-                className='h-[340px] lg:h-full lg:w-full object-cover'
+                className='h-[380px] lg:h-full lg:w-full object-cover'
               />
-              <div className="absolute top-[120px] left-[170px] md:top-[70px] md:left-[350px] lg:top-[40px] lg:left-[565px] -translate-x-1/2 -translate-y-1/2 size-11 rounded-full after:content-[''] after:absolute after:inset-0 after:outline after:outline-2 after:-outline-offset-2 after:rounded-full after:outline-blue-400/50">
+              <div className="absolute top-[220px] left-[310px] md:top-[150px] md:left-[530px] lg:top-[170px] lg:left-[835px] -translate-x-1/2 -translate-y-1/2 size-11 rounded-full after:content-[''] after:absolute after:inset-0 after:outline after:outline-2 after:-outline-offset-2 after:rounded-full after:outline-blue-400/50">
                 <div className='absolute inset-0 rounded-full bg-gradient-to-r from-sky-200 to-sky-400 -z-10 animate-ping [animation-duration:1.5s]'></div>
                 <div className='absolute inset-0 rounded-full bg-gradient-to-r from-sky-200 to-sky-400 -z-10'></div>
                 <Image
@@ -116,11 +119,11 @@ export const AboutSection = () => {
 
             <Card className='h-[250px] p-0 relative col-span-2'>
               <Image
-                src={theNetherlandsMapImage}
+                src={turkeyMapImage}
                 alt='Map'
-                className='h-[380px] lg:h-full lg:w-full object-cover'
+                className='h-[340px] lg:h-full lg:w-full object-cover'
               />
-              <div className="absolute top-[220px] left-[310px] md:top-[150px] md:left-[530px] lg:top-[170px] lg:left-[835px] -translate-x-1/2 -translate-y-1/2 size-11 rounded-full after:content-[''] after:absolute after:inset-0 after:outline after:outline-2 after:-outline-offset-2 after:rounded-full after:outline-blue-400/50">
+              <div className="absolute top-[120px] left-[170px] md:top-[70px] md:left-[350px] lg:top-[40px] lg:left-[565px] -translate-x-1/2 -translate-y-1/2 size-11 rounded-full after:content-[''] after:absolute after:inset-0 after:outline after:outline-2 after:-outline-offset-2 after:rounded-full after:outline-blue-400/50">
                 <div className='absolute inset-0 rounded-full bg-gradient-to-r from-sky-200 to-sky-400 -z-10 animate-ping [animation-duration:1.5s]'></div>
                 <div className='absolute inset-0 rounded-full bg-gradient-to-r from-sky-200 to-sky-400 -z-10'></div>
                 <Image
